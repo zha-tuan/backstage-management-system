@@ -1,0 +1,169 @@
+html,
+body {
+	font-size: 20px;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	min-width: 1200px;
+	background: white;
+}
+* {
+	box-sizing: border-box;
+}
+
+div,
+small,
+p,
+em,
+i,
+b,
+th,
+td,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+textarea {
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none
+}
+
+a img {
+	border: none
+}
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+input,
+button {
+	background-image: none;
+}
+
+body,
+div,
+span,
+small,
+p,
+em,
+i,
+b,
+th,
+td,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+a,
+em,
+i,
+b {
+	font-style: normal;
+	list-style: none;
+}
+select::-ms-expand {
+	display: none;
+}
+
+::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #999;
+}
+
+:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #999;
+}
+
+::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #999;
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: #999;
+}
+
+input:focus::-webkit-input-placeholder {
+	color: #999;
+}
+
+input::-webkit-input-speech-button {
+	display: none
+}
+
+
+/*定义滚动条轨道 内阴影+圆角*/
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+
+/*定义滑块 内阴影+圆角*/
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+	background-color: #555;
+}
+.clear {
+	zoom: 1;
+}
+
+.clear:before,
+.clear:after {
+	content: '';
+	display: block;
+	clear: both;
+	width: 0;
+	height: 0;
+}
+/*element表单  必填 * 样式设置*/
+.login .el-form-item__label {
+	position: relative;
+}
+.login .el-form-item__label:before {
+	position: absolute;
+    left: -7px;
+    top: -2px;
+}
+/*home页面左侧菜单样式设置*/
+.el-menu {
+	height: 100%;
+	border: 1px solid #e6e6e6;
+}
+.menu_left>.el-menu>.el-menu-item {
+	border-bottom: 1px solid #e6e6e6;
+}
+.el-submenu {
+	border-bottom: 1px solid #e6e6e6;
+}
+.el-submenu.is-opened:last-child {
+	border: none;
+}
+/*公共表格样式*/
+.userTable .el-table__header th {
+	background: #58C7F2;
+	color: white;
+}
